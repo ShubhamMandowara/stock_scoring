@@ -6,9 +6,9 @@ import plotly.express as px
 import plotly.graph_objects as go
 import time
 from datetime import date
-from fundamental_score import calculate_fundamental_score
-from scores import calculate_stock_score
-from get_data_for_scoring_yfinance import get_data
+from src.fundamental_score import calculate_fundamental_score
+from src.scores import calculate_stock_score
+from src.get_data_for_scoring_yfinance import get_data
 st.sidebar.title("Navigation")
 menu_option = st.sidebar.selectbox("Select a section", ['Fundamental Score'])
 

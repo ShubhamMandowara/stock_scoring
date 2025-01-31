@@ -7,6 +7,11 @@ A **rule and weight-based system** for stock credit scoring that evaluates stock
 This project is built using **Streamlit** for the UI and managed with **Poetry** for dependency management.  
 
 ---
+## **🖼️ UI Preview**  
+![Credit Scoring UI](screenshot.png)  
+
+
+---
 
 ## **🚀 How It Works**  
 1. **Enter stock symbols** in the UI.  
@@ -76,7 +81,3 @@ The final score is computed using a weighted sum of these factors.
 
 ### **📩 Contributions & Issues**  
 Feel free to **open an issue** or **submit a PR** to improve this project! 🚀  
-
----
-
-Let me know if you need modifications! 🔥
