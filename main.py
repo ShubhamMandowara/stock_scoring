@@ -10,10 +10,10 @@ from src.fundamental_score import calculate_fundamental_score
 from src.scores import calculate_stock_score
 from src.get_data_for_scoring_yfinance import get_data
 st.sidebar.title("Navigation")
-menu_option = st.sidebar.selectbox("Select a section", ['Fundamental Score'])
+menu_option = st.sidebar.selectbox("Select a section", ['Stock Score'])
 
-if menu_option == 'Fundamental Score':
-    st.title("Fundamental Score")
+if menu_option == 'Stock Score':
+    st.title("Stock Score")
     query = st.text_input('Enter Stock Symbol')
     fundamental_details = calculate_fundamental_score(ticker=query)
     st.write(f'Fundamental Details of Stock: {query}')
