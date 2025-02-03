@@ -1,0 +1,6 @@
+python = "^3.12"
+yfinance = "^0.2.52"
+streamlit = "^1.41.1"
+pandas = "^2.2.3"
+plotly = "^6.0.0"
+tqdm = "^4.67.1"
