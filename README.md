@@ -1,6 +1,6 @@
-# **📊 Credit Scoring System**  
+# **📊 Stock Scoring System**  
 
-A **rule and weight-based system** for stock credit scoring that evaluates stocks based on fundamental, technical, risk, and other parameters. The system assigns a **score between 0 and 1**, where:  
+A **rule and weight-based system** for stock scoring that evaluates stocks based on fundamental, technical, risk, and other parameters. The system assigns a **score between 0 and 1**, where:  
 ✅ **Score ≥ 0.5** → Good for Buying  
 ❌ **Score < 0.5** → Good for Short Selling  
 
